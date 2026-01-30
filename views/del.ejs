@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edit</title>
+</head>
+<body>
+    <h2>enter password 
+    </h2>
+ 
+    <h2>u are about to change the username</h2>
+    <form action="/user/<%= user.id %>?_method=DELETE" method="post">
+        <input type="text" name="email" placeholde="enter email">
+        <input type="text" name="password" placeholder="enter password">
+        <button type="submit">button</button>
+    </form>
+</body>
+</html>
