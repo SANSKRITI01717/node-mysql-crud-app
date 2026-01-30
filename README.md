@@ -56,17 +56,24 @@ CREATE TABLE user (
 🚀 How to Run the Project
 1. Clone the repository
    git clone https://github.com/SANSKRITI01717/node-mysql-crud-app
+   
 2. Install dependencies
    npm install
+   
 3.Create a MySQL database
  CREATE DATABASE app;
+ 
 4. Update database credentials in index.js
-   host: 'localhost',
- user: 'your_db_user',
- password: 'your_db_password',
-  database: 'app'
+ ```
+ host: 'localhost',
+   user: 'your_db_user',
+   password: 'your_db_password',
+   database: 'app'
+```
+
 5. Run the application
    node index.js
+   
 6.Open in browser
    http://localhost:3000
 
